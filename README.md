@@ -1,9 +1,11 @@
 🛡️ The Mission
+
 A Hackeriot x BGU Collaboration Project
 This project is a full-stack Command and Control (C2) Framework built from scratch. It demonstrates how a remote attacker 
 can exfiltrate sensitive data from a Windows target by abusing the DNS protocol to bypass modern firewall restrictions.
 
 🛠️ The Architecture: How it Works
+
 The framework consists of three main components that work in total synchronization:
 The Listener (Server): A custom DNS server written in C (Linux-based). 
 It captures UDP traffic on Port 53, extracts Hex-encoded payloads from subdomains, and reconstructs the original data.
@@ -13,6 +15,7 @@ The DNS Tunnel: A stealthy communication channel that fragments data and hides i
 (e.g., d[HEX].i[SEQ].e[IS_LAST].domain.com).
 
 📈 Project Roadmap: From Theory to Tool
+
 The development was executed in strategic milestones, ensuring a deep understanding of each layer of the C2 
 infrastructure.
 
@@ -39,6 +42,7 @@ The Stealth Agent (Batch/CMD): A minimalist implementation designed to evade det
 
 
 💡 Key Insights & Personal Growth
+
 Building this framework from zero was a transformative experience:
 Cross-Platform Synchronization: Ensuring a script in Windows "talks" perfectly to a server in C (Linux) required meticulous 
 protocol design.
@@ -49,4 +53,5 @@ for women in cyber.
 
 
 🛡️ Disclaimer
+
 This project is for educational and authorized testing purposes only.
