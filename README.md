@@ -1,6 +1,6 @@
 🛡️ The Mission
 
-A Hackeriot x BGU Collaboration Project
+## A Hackeriot x BGU Collaboration Project
 This project implements a modular, multi-channel Command and Control (C2) framework designed to demonstrate firewall evasion, asynchronous communication, and automated vulnerability scanning. The system coordinates three separate operational channels: an HTTPS channel interacting with the Google Drive API, an HTTPS channel interacting with the OneDrive API, and a stealthy, bidirectional DNS Tunneling channel operating over raw UDP Port 53.
 
 
@@ -8,7 +8,7 @@ This project implements a modular, multi-channel Command and Control (C2) framew
 
 The project environment is divided into the C2 Controller Server (Linux-based compiled C infrastructure) and the Remote Victim Agent (PowerShell execution environment).
 
-1. C2 Controller Infrastructure (Server-Side)
+##1. C2 Controller Infrastructure (Server-Side)
 The server codebase is modularized into three core component files alongside its compiled binary execution configurations:
 
 * c2_core.h: The central configuration header. It defines global system constants (BUF_SIZE, CHUNK_BYTES), layout parameters, structural models for memory blocks (Chunk, C2Agent), live environment keys (tokens, file handles), and shared network state definitions.
